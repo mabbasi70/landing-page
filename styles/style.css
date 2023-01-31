@@ -44,7 +44,7 @@ body{
 .header{
   background-color: #343434;
   padding-top: 3.5rem;
-  padding-bottom: 2rem;
+  padding-bottom:10rem;
 
 }
 
@@ -307,6 +307,403 @@ body{
     
 }
 
+/*** Main ***/
+
+.main{
+    background-color: #f2f2f2;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.courses{
+    margin-bottom: 3rem;
+}
+
+.main-top-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-top__header{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.main-top__header__content{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-top__courses{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.main-top__courses__content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    /* width: 15%; */  /* ba hazfe width har kasi be andaze khodesh bar midare*/
+    height: 3rem;
+    padding: 1.8rem 1.7rem;
+    cursor: pointer;
+
+}
+
+.course-name-top{
+    font-size: 1.1rem;
+    color: #9a9a9a;
+    font-weight: bold;
+    transition: .4s ease;
+}
+
+.main-top__courses__content .course-name-top:hover{
+    color: black;
+}
+
+/* Main Middle */
+
+.middle{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.main-middle-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+}
+
+.main-middle-head__content{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.main-middle-text{
+
+}
+
+.main-middle-text__content{
+    font-weight: bold;
+}
+
+.teachers{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.teachers-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+
+}
+
+.teacher{
+    background-color:#3f3f3f ;
+    width: 30%;
+    /* height: 33rem; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.teacher-content__container{
+    width: 94%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dis-img-container{
+    position: absolute;
+    left: -1.5rem;
+    top: -1.5rem;
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.dis-img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+.dis-text{
+    position: absolute;
+    left: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.teacher__img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.course-name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.price-wrapper{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.del-price{
+    font-family: inherit;
+    color:#b8b6b6;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration-line: line-through;
+}
+.actual-price{
+
+    font-family: inherit;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.btn-wrapper{
+    min-width: 11rem;
+    height: 3rem;
+    background-color:  #fea000;
+    border: none;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-content-text{
+    font-family: 'Shabnam';
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.fa-solid{
+    font-size: 1rem;
+}
+
+/* Footer */
+
+.footer{
+
+}
+.profesors{
+    background-color: #484848;
+    padding: 4rem 0;
+}
+
+.profesors-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profesors-text-wrapper{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profesors-text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.profesors-img-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.profesors-img{
+    max-width:100% ;
+    border-radius: 1rem;
+}
+
+.special-gifts{
+    background-color: #343434;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.special-gifts-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.special-gifts-header{
+
+}
+
+.gifts-header{
+    font-size: 2.5rem;
+}
+
+.special-gifts-text{
+
+}
+
+.gifts-text{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.three-gifts-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.gift{
+    padding: 3rem 1rem;
+    background-color: #3f3f3f;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:1rem;
+    border-radius: 1rem;
+
+}
+
+.gift-img{
+    width:40%;
+}
+
+.gift-text{
+   text-align: right;
+   color: #fff;
+}
+
+
+.ideas{
+    background-color: #343434;
+    padding: 3rem 0;
+}
+
+.ideas-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.idea-text-wrapper{
+    
+    width: 70%;
+    background-color: #484848;
+    padding: 4rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+
+}
+
+.end-footer{
+    background-color: #343434;
+}
+
+.contetn-wrapper{
+    background-color: #3f3f3f;
+    border-top-left-radius:1rem ;
+    border-top-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.end-img-wraper{
+    max-width: 10%;
+}
+
+.end-img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.media-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.fa-telegram{
+    font-size: 2rem
+}
+
+.fa-instagram{
+    font-size: 2rem;
+}
+
+
+
 
 
 
@@ -441,6 +838,54 @@ body{
     width: 44%;
     margin-bottom: 1rem;
    }
+
+   
+  .main-top__courses__content{
+    height: 2rem;
+    padding: 1rem 1rem;
+
+  }
+
+  .course-name{
+    font-size: .8rem;
+    
+  }
+
+  .teachers-wrapper{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .teacher{
+    width: 90%;
+  }
+
+  .teacher__img{
+    object-fit: cover;
+  }
+
+  .btn-wrapper{
+    width: 100%;
+  }
+
+  .three-gifts-container{
+    flex-wrap: wrap;
+
+  }
+  .gift{
+    width: 100%;
+    justify-content: start;
+    gap: 2rem;
+  }
+
+  .gift-img{
+    width: 20%;
+   
+  }
+
+  .g-img{
+    width: 100%;
+  }
   
 
 
